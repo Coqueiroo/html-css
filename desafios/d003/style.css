@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+    background-color: #89CDA5;
+    font-family: 'IDroid', Arial, Helvetica, sans-serif;
+}
+
+.container_main{
+    margin: 0px;
+}
+
+.a_efeito {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.a_efeito:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+#historia{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.24);
+}
+
+.texts {
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 1px rgb(0, 0, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toolbar  {
+    display: block;
+    text-align: flex-start;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_bar {
+    background-image: linear-gradient(to bottom, #5cbe7d, #1a5a37);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    padding: 10px;
+    
+}
+
+.informacao {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 1px 0px black;
+    min-width: 300px;
+    max-width: 1000px;
+    
+}
+
+.titulos {
+    color: #1a5a37;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: 'IDroid';
+    src: url(fonte/IDroid.otf) format('opentype');
+}
+
+.sub_titulos {
+    color: #1a5a37;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.24);
+    margin: 10px 20px;
+    background-image: linear-gradient(to right, #89cda5, transparent);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+p {
+    margin: 20px;
+    text-indent: 2em;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container_android {
+    text-align: center;
+}
+
+.android {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.imagem_da_irina{
+    margin:10px 20px 10px 20px;
+}
+
+.box_do_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1a5a37;
+    position: relative;
+	padding: 15px 10px; 
+    margin: 10px 20px;
+}
+
+.box_da_lista{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #C5EBD6;
+    position: relative;
+    margin: 10px 20px;
+    border-radius: 1%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+}
+
+.box_do_aprender{
+    background-color: #2FA866;
+    color:white;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 1em;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista_lado_a_lado{   
+    display: flex;
+    justify-content: start;   
+}
+
+.lista2{
+    margin-left: 15em;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.destaque{
+    color: #1a5a37;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.24);
+}
+
+.destaque::after{
+    content: '';
+}
+
+a{
+    text-decoration: none;
+    color: #1a5a37;
+    text-shadow: 0px;
+
+}
+
+.sites::after{
+    content: url(imagens/15link-svgrepo-com.png);
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: #1a5a37;
+    color: white;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted;
+}
+
+li::before{
+    content: url(imagens/11checkmark-svgrepo-com.png);
+    display: inline-block;
+}
+
+footer{
+    background-color: #1A5A37;
+    color: white;
+    font-size: 1em;
+    margin: 7px 0px 1px 0px;
+}
+
+.rodape {
+    background-color: #1A5A37;
+    color: white;
+}
+
+.rodape:hover{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+}
+
+.creditos{
+    margin: 0px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
