@@ -1,0 +1,13 @@
+body{
+    margin: 10px;
+}
+
+table{
+    width: 300px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
